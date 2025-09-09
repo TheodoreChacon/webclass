@@ -1,0 +1,162 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2 {
+color: black;
+font-family: 'Times New Roman', Times, serif;
+font-size: 35px;
+text-align: center;
+}
+.imagezero {
+    display: block;
+     margin-left: auto;
+  margin-right: auto;
+  max-width: 350px;
+}
+
+.imageone {
+    float: left;
+    margin: 15px;
+}
+.principleone {
+    text-align: left;
+    font-size: 35px;
+}
+.textone {
+text-align: left;
+font-size: 30px;
+text-align: justify;
+}
+
+.imagetwo {
+    float: left;
+    margin: 15px;
+}
+.principletwo {
+    text-align: left;
+    font-size: 35px;
+}
+.texttwo {
+text-align: left;
+font-size: 30px;
+text-align: justify; 
+}
+
+.imagethree {
+    float: left;
+    margin: 15px;
+}
+.principlethree {
+    text-align: left;
+    font-size: 35px;
+}
+.textthree {
+text-align: left;
+font-size: 30px;
+text-align: justify; 
+}
+
+.imagefour {
+    float: left;
+    margin: 15px;
+}
+
+.principlefour {
+    text-align: left;
+    font-size: 35px;
+}
+.textfour {
+text-align: left;
+font-size: 30px;
+text-align: justify; 
+}
+.imagefive {
+    float: left;
+    margin: 15px;
+}
+
+.principlefive {
+    text-align: left;
+    font-size: 35px;
+}
+.textfive {
+text-align: left;
+font-size: 30px;
+text-align: justify; 
+}
+
+.imagesix {
+    float: left;
+    margin: 15px;
+}
+
+.principlesix {
+    text-align: left;
+    font-size: 35px;
+}
+.textsix {
+text-align: left;
+font-size: 30px;
+text-align: justify; 
+}
+.imageseven {
+    float: left;
+    margin: 15px;
+}
+
+.principleseven {
+    text-align: left;
+    font-size: 35px;
+}
+.textseven {
+text-align: left;
+font-size: 30px;
+text-align: justify; 
+}
+
+.imageeight {
+    float: left;
+    margin: 15px;
+}
+
+.principleeight {
+    text-align: left;
+    font-size: 35px;
+}
+.texteight {
+text-align: left;
+font-size: 30px;
+text-align: justify; 
+}
+.imagenine {
+    float: left;
+    margin: 15px;
+}
+
+.principlenine {
+    text-align: left;
+    font-size: 35px;
+}
+.textnine {
+text-align: left;
+font-size: 30px;
+text-align: justify; 
+}
+.imageten {
+    float: left;
+    margin: 15px;
+}
+
+.principleten {
+    text-align: left;
+    font-size: 35px;
+}
+.textten {
+text-align: left;
+font-size: 30px;
+text-align: justify; 
+}
