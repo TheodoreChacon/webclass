@@ -1,0 +1,356 @@
+/*first block*/
+
+body { 
+  padding-top: 1px; 
+  margin: 0;
+}
+
+header {
+  background-color: #ffffff;
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 0px 24px;
+  top: 0;
+}
+
+h1 { 
+  margin: 1; 
+}
+
+.logo {
+  height: 40px;
+  display: block;
+}
+
+nav {
+  margin: auto;
+  padding: 26px;
+}
+
+li {
+  display: inline-block;
+  background-color: transparent;
+  color: black;
+  padding: 0;
+  margin: 0 18px;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration-line:underline;
+  text-decoration-color: #0390c7;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover { 
+  color: #0390c7; 
+}
+
+.phone {
+  margin: auto;
+  color: black;
+  font-size: 16px;
+  padding: 27px;
+}
+
+/*second block*/
+
+#about{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+  align-items: center;
+  background-color: #f8f5ee;
+  padding: 20px;
+  margin: 50px 0 0 0;
+  color: black;
+  text-align: left;
+}
+
+.abouttext{ 
+  grid-area: 1 / 1 / 2 / 2; 
+}
+.aboutimg{ 
+  grid-area: 1 / 2 / 2 / 3; 
+  background-image: url(ventaprimeimages/image1.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 325px;
+  border-radius: 50px;
+  width: 400px;
+  margin: 0 0 0 150px;
+}
+
+#about h2{
+  font-size: 40px;
+  margin: 0 0 16px 200px;
+  text-align: left;
+  font-weight: 400;
+}
+
+#about h5{
+  font-size: 18px;
+  line-height: 1.6;
+  color: black;
+  font-weight: 300;
+  margin: 0 0 0 205px;
+  text-align: justify;
+}
+
+/* third block*/
+
+#mission{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 0px;
+  align-items: center;
+  background-color: white;
+  width: 70%;
+  margin: 60px auto 60px auto;
+  color: black;
+  text-align: left;
+}
+
+.missionimg{
+  grid-area: 1 / 1 / 2 / 2;                         
+  background-image: url(ventaprimeimages/image2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 320px;
+  border-radius: 50px;                          
+}
+
+.missiontext{ 
+  grid-area: 1 / 2 / 2 / 3; 
+}
+
+#mission h2{ 
+  font-size: 40px; 
+  margin: 0 0 14px 0; 
+  font-weight: 700; 
+}
+
+#mission h5{ 
+  font-size: 18px; 
+  line-height: 1.6; 
+  color: black; 
+  font-weight: 300; 
+  text-align: justify;
+}
+
+/* fourth block*/
+
+#history{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
+  align-items: center;
+  background-color: white;
+  width: 70%;
+  margin: 60px auto;
+  color: black;
+  text-align: left;
+}
+
+.historyimg{
+  grid-area: 1 / 2 / 2 / 3;                 
+  background-image: url(ventaprimeimages/image3.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 320px;
+  border-radius: 50px;
+}
+
+#history h2{ 
+  font-size: 40px; 
+  margin: 0 0 14px 0; 
+  font-weight: 700; 
+}
+
+#history h5{ 
+  font-size: 18px; 
+  line-height: 1.6; 
+  color: black; 
+  font-weight: 300; 
+  text-align: justify;
+}
+
+/* fifth block*/
+
+#numbers{
+  background-color:#f8f5ee;
+  color:black;
+  padding:50px 0;
+  text-align:center;
+}
+
+#numbers h2{
+  font-size:40px;
+  margin:0 0 24px 0;
+}
+
+.numbersgrid{
+  width:70%;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-column-gap:24px;
+  grid-row-gap:24px;
+}
+
+.numberscard{
+  background-color:#fff;
+  border:1px solid #e9e9e9;
+  border-radius:16px;
+  padding:18px;
+}
+
+.numbersphoto{
+  width:100%;
+  height:180px;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  border-radius:12px;
+  margin:0 auto 12px auto;
+}
+
+.figure{
+  font-size:20px;
+  letter-spacing:2px;
+  color:#f5b301;
+  margin:0 0 8px 0;
+}
+
+.type{
+  font-size:16px;
+  line-height:1.6;
+  margin:0 0 10px 0;
+}
+
+.customers{ 
+  background-image: url(ventaprimeimages/image8.png);
+  background-size: contain;
+}
+
+.products{ 
+  background-image: url(ventaprimeimages/image6.png);
+  background-size: contain;
+}
+
+.tv{ 
+  background-image: url(ventaprimeimages/image5.png);
+  background-size: contain;
+}
+
+/* sixth block*/
+
+#reviews{
+  background-color:#fcfcfa;
+  color:black;
+  padding:50px 0;
+  text-align:center;
+}
+
+#reviews h2{
+  font-size: 40px;
+  margin:0 0 20px 0;
+}
+
+.reviewslist{
+  width:70%;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:1fr;
+  gap:18px;
+}
+
+.reviewsbox{
+  background:#fff;
+  border:1px solid #e9e9e9;
+  border-radius:16px;
+  padding:18px 20px;
+}
+
+.stars{
+  color:#f5b301;
+  font-size:20px;
+  letter-spacing:2px;
+  margin:4px 0 8px 0;
+}
+
+.reviewscustomer{
+  font-size:16px;
+  line-height:1.6;
+  margin:0 0 8px 0;
+}
+
+.customername{
+  font-size:14px;
+  color:#555;
+  margin:0;
+}
+
+/* footer */
+
+#contact{
+  background-color:#eff0f4;
+  color:black;
+  padding:15px 15%;
+  background-image: url(ventaprimeimages/VentaPrimeT.png);
+  background-repeat: no-repeat;
+  background-position: 88% 60%;
+  background-size: 250px;
+}
+
+.contactgrid{
+  display:grid;
+  grid-template-columns: 1.2fr 1fr;  
+}
+
+#contact h2{ 
+  font-size: 40px; 
+  margin: 5px 0 4px 0; 
+}
+
+.contacttext p{ 
+  margin:0 0 8px 0; 
+}
+
+.contacttype{ 
+  margin:16px 0 6px 0; 
+  font-weight:600;
+  text-decoration-line: underline; 
+}
+
+/* Last Block */
+
+.rightsbox{
+  text-align: right;
+  background: #666;      
+  color: white;           
+  font-size: 14px;
+  padding: 6px;
+}
+
+/* Font Family: Arial, Helvetica, sans-serif */
+
+html, body,
+h1,h2,h3,h4,h5,h6,
+p, li, a, button, input, select, textarea {
+  font-family: Arial, Helvetica, sans-serif;
+}
