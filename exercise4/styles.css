@@ -1,0 +1,88 @@
+html, body {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background-image: url(imagesmuseum/whitewall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  width: 90%;
+  max-width: 1100px;
+  border: 5px solid black;
+  border-bottom: 5px solid black;
+  padding: 100px;
+  background-color: white;
+}
+
+.info {
+  width: min(680px, 90vw);
+  text-align: justify;
+  line-height: 1.5;
+  border-right: 5px solid black;
+  padding-right: 100px;
+}
+
+.panel {
+  position: relative;
+  width: 520px;
+  height: 340px;
+  border-radius: 20px;
+}
+
+.circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 35px solid; 
+  border-radius: 50%;
+  top: 50%;
+  animation: circleIn 2s ease-in-out infinite alternate;
+}
+
+.circle::after{
+  content:"";
+  position:absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(-1 * 35px - 12px);
+  width: 56px;
+  height: calc(35px + 28px);
+  background: white;
+}
+
+.stick {
+  position: absolute;
+  width: 35px;
+  height: 120px;
+  background: black;
+  border-radius: 10px;
+  animation: stickIn 2s ease-in-out infinite alternate;
+}
+
+@keyframes circleIn{
+  0% { 
+    left: 40px; 
+    transform: translate(0,-50%); 
+  }
+  60%, 100% { 
+    left: 50%;  
+    transform: translate(-50%,-50%); 
+  }
+}
+
+@keyframes stickIn{
+  0% { 
+    left: calc(100% - 40px); 
+    transform: translateX(0); 
+  }
+  60%, 100% { 
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
