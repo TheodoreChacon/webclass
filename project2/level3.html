@@ -1,0 +1,41 @@
+<!doctype html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Where's Wally?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>The Battle of Britannia</h1>
+  </header>
+    <div class="note">
+      <strong>Hint:</strong> Among the tumbling fighters and scattered helmets, someone isn't fighting at all. Seek higher ground, he's watching the battle, not joining it.
+    </div>
+    <figure class="card scene">
+      <img src="images/level3.jpg" alt="Busy battlefield scene from Where's Wally" class="hero">
+      <a href="level4.html" class="hit correct3" aria-label="Wally found (correct)"></a>
+      <a href="tryagain.html" class="hit wrong3" aria-label="Wrong spot, try again"></a>
+    </figure>
+  <footer class="footer">
+    <small>© 2025 Theodore Chacon</small>
+  </footer>
+  <img src="images/jumping.gif" alt="Wally reference" class="helper-wally">
+<div class="hint-gif simple" aria-hidden="true">
+  <img src="images/misterwaldo.gif" alt="">
+</div>
+<script>
+(function () {
+  const el = document.querySelector('.hint-gif.simple');
+  if (!el) return;
+
+  const delayMs   = 45000; 
+  const visibleMs = 5000;  
+
+  const timer = setTimeout(() => {
+    el.classList.add('show');
+    setTimeout(() => el.classList.remove('show'), visibleMs);
+  }, delayMs);
+})();
+</script>
+</body>
+</html>
