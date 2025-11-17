@@ -1,0 +1,42 @@
+<!doctype html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Where's Wally?</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+</head>
+<body>
+  <header class="header">
+    <h1>Belgium's Grand Parade</h1>
+  </header>
+    <div class="note">
+      <strong>Hint:</strong> The parade's a blast! Wally's keeping rhythm with the crowd, look up where the music gets loud and blue uniforms march in tune.
+    </div>
+    <figure class="card scene">
+      <img src="images/level2.jpg" alt="Crowded marching band scene from Where's Wally" class="hero">
+      <a href="level3.html" class="hit correct2" aria-label="Wally found (correct)"></a>
+      <a href="tryagain.html" class="hit wrong2" aria-label="Wrong spot, try again"></a>
+    </figure>
+  <footer class="footer">
+    <small>© 2025 Theodore Chacon</small>
+  </footer>
+  <img src="images/jumping.gif" alt="Wally reference" class="helper-wally">
+<div class="hint-gif simple" aria-hidden="true">
+  <img src="images/misterwaldo.gif" alt="">
+</div>
+<script>
+(function () {
+  const el = document.querySelector('.hint-gif.simple');
+  if (!el) return;
+
+  const delayMs   = 45000; 
+  const visibleMs = 5000;  
+
+  const timer = setTimeout(() => {
+    el.classList.add('show');
+    setTimeout(() => el.classList.remove('show'), visibleMs);
+  }, delayMs);
+})();
+</script>
+</body>
+</html>
